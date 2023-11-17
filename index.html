@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/icon/css/fontello.css">
+
+</head>
+<body>
+    <main class="w-full font-sans">
+        <section class="w-full h-full  flex justify-center items-center">
+            <div class=" py-5 w-[80%] md:w-[30%] bg-[#10101d] rounded-lg flex flex-wrap justify-center overflow-hidden">
+                <h1 class="w-full font-medium text-2xl uppercase text-white ps-5">to do list</h1>
+                <input maxlength="35" id="task" class="w-[80%] bg-transparent border-b outline-none text-white" type="text" name="" id="" placeholder="Add New Task">
+                <span onclick="todo()" class=" flex justify-center items-center rounded-full text-2xl text-white cursor-pointer  w-[40px] h-[40px] bg-[#ee9ca7] ">+</span>
+                <ul id="listtask" class="w-full text-white flex-wrap flex ps-5">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="assets/js/script.js"></script>
+</html>

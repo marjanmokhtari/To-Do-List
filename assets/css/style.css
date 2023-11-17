@@ -1,0 +1,44 @@
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(62deg, rgba(1, 95, 183, 0.9732216701) 13%, rgba(255, 122, 151, 0.5) 4%), linear-gradient(44deg, rgba(0, 43, 99, 0.0792209024) 39%, rgba(242, 140, 143, 0.5) 18%), linear-gradient(118deg, rgba(84, 202, 242, 0.0315299727) 40%, rgba(247, 155, 187, 0.5) 54%), linear-gradient(58deg, rgba(90, 90, 237, 0.1614444357) 83%, rgba(249, 156, 142, 0.5) 23%);
+}
+
+.listyle{
+    width: 70%;
+    background-color: #191933;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 5px;
+
+    
+}
+h2{
+    display: flex;
+    position: relative;
+    >.line{
+        position: absolute;
+        background: rgb(77, 77, 77);
+        transition: .2s;
+        width: 0;
+        height: 3px;
+        border-radius: 5px;
+        top: 50%;
+    }
+}
+h2{
+   padding-left: 5px;
+
+ 
+}
+.trash{
+width: 100%;
+    >i{
+    color: red;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: end; 
+  
+    }
+}
+
